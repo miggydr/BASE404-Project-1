@@ -1,0 +1,42 @@
+
+.header-bg{
+
+background-image: url(images/headerbg.png);
+background-repeat: no-repeat;
+background-size:cover;
+opacity: 100%;
+padding-bottom: 150px;
+background-position: 50%;
+}
+
+.btn-primary{
+    padding: 5px;
+    margin: 10px;
+    background-color: #ff5800;
+    border-radius: 10px;
+}
+.btn-primary:hover{
+    background-color: black;
+}
+
+.btn-secondary{
+    padding: 5px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 10px
+}
+
+.btn-dark{
+    padding: 5px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 10px
+}
+
+.search{
+    width: 500px;
+}
+
+.orange{
+    color: #ff5800;
+}
