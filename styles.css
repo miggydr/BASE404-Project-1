@@ -1,6 +1,5 @@
 
 .header-bg{
-
 background-image: url(images/headerbg.png);
 background-repeat: no-repeat;
 background-size:cover;
@@ -14,10 +13,12 @@ background-position: 50%;
     margin: 10px;
     background-color: #ff5800;
     border-radius: 10px;
+    --bs-btn-active-bg: #ff5800;
+    --bs-btn-hover-bg: black;
 }
-.btn-primary:hover{
-    background-color: black;
-}
+
+
+
 
 .btn-secondary{
     padding: 5px;
@@ -40,3 +41,75 @@ background-position: 50%;
 .orange{
     color: #ff5800;
 }
+
+.billiebg{
+    background-image: url(images/billiebg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity: 100%;
+    padding: 250px;
+
+}
+
+.fontsize{
+    font-size: 30px;
+}
+
+.signupbg{
+    background-image: url(images/signupbg.png);
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+ 
+}
+
+
+.btn-facebook{
+    --bs-btn-color: white;
+    --bs-btn-bg: #4267B2; 
+    --bs-btn-active-bg: #4267B2;
+    --bs-btn-active-border-color: #4267B2;
+}
+.btn-apple{
+    --bs-btn-color: white;
+    --bs-btn-hover-bg: gray;
+    --bs-btn-hover-border-color: gray;
+    --bs-btn-bg: black; 
+    --bs-btn-active-bg: black;
+    --bs-btn-active-border-color: black;
+}
+.btn-google{
+    --bs-btn-color: black;
+    --bs-btn-bg: white; 
+    --bs-btn-hover-bg: gray;
+    --bs-btn-hover-border-color: gray;
+    --bs-btn-active-bg: white;
+    --bs-btn-active-border-color: white;
+}
+
+
+
+.custom-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+  }
+
+  .line {
+    flex-grow: 1;
+    height: 1px;
+    border: none;
+    background-color: white;
+  }
+
+  .or-text {
+    margin: 0 10px;
+    font-weight: lighter;
+    color: white;
+  }
+
+ .overflow{
+    overflow: hidden;
+ }
+
