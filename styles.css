@@ -1,14 +1,13 @@
-
-.header-bg{
-background-image: url(images/headerbg.png);
-background-repeat: no-repeat;
-background-size:cover;
-opacity: 100%;
-padding-bottom: 150px;
-background-position: 50%;
+.header-bg {
+    background-image: url(images/headerbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 100%;
+    padding-bottom: 150px;
+    background-position: 50%;
 }
 
-.btn-primary{
+.btn-primary {
     padding: 5px;
     margin: 10px;
     background-color: #ff5800;
@@ -20,67 +19,69 @@ background-position: 50%;
 
 
 
-.btn-secondary{
+.btn-secondary {
     padding: 5px;
     margin: 10px;
     background-color: #ffffff;
     border-radius: 10px
 }
 
-.btn-dark{
+.btn-dark {
     padding: 5px;
     margin: 10px;
     background-color: black;
     border-radius: 10px
 }
 
-.search{
+.search {
     width: 500px;
 }
 
-.orange{
+.orange {
     color: #ff5800;
 }
 
-.billiebg{
+.billiebg {
     background-image: url(images/billiebg.png);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     opacity: 100%;
     padding: 250px;
 
 }
 
-.fontsize{
+.fontsize {
     font-size: 30px;
 }
 
-.signupbg{
+.signupbg {
     background-image: url(images/signupbg.png);
     position: relative;
     width: 1920px;
     height: 1080px;
- 
+
 }
 
 
-.btn-facebook{
+.btn-facebook {
     --bs-btn-color: white;
-    --bs-btn-bg: #4267B2; 
+    --bs-btn-bg: #4267B2;
     --bs-btn-active-bg: #4267B2;
     --bs-btn-active-border-color: #4267B2;
 }
-.btn-apple{
+
+.btn-apple {
     --bs-btn-color: white;
     --bs-btn-hover-bg: gray;
     --bs-btn-hover-border-color: gray;
-    --bs-btn-bg: black; 
+    --bs-btn-bg: black;
     --bs-btn-active-bg: black;
     --bs-btn-active-border-color: black;
 }
-.btn-google{
+
+.btn-google {
     --bs-btn-color: black;
-    --bs-btn-bg: white; 
+    --bs-btn-bg: white;
     --bs-btn-hover-bg: gray;
     --bs-btn-hover-border-color: gray;
     --bs-btn-active-bg: white;
@@ -94,22 +95,46 @@ background-position: 50%;
     align-items: center;
     text-align: center;
     flex-direction: row;
-  }
+}
 
-  .line {
+.line {
     flex-grow: 1;
     height: 1px;
     border: none;
     background-color: white;
-  }
+}
+.line2 {
+    position: absolute;
+    
+    width: 90%;
+    height: 1px;
+    background-color: black;
+    left: 5%;
+}
 
-  .or-text {
+
+.or-text {
     margin: 0 10px;
     font-weight: lighter;
     color: white;
-  }
+}
 
- .overflow{
+.overflow {
     overflow: hidden;
- }
+}
+
+.font100{
+    font-size: 100px;
+}
+
+.font50{
+    font-size: 50px;
+}
+
+.rapperbg{
+    background-image: url(images/rapperbg.png);
+    position: relative;
+}
+
+
 
