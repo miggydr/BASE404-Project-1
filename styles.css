@@ -13,7 +13,10 @@
     background-color: #ff5800;
     border-radius: 10px;
     --bs-btn-active-bg: #ff5800;
+    --bs-btn-hover-border-color: black;
     --bs-btn-hover-bg: black;
+    --bs-btn-border-color: #ff5800;
+    --bs-btn-active-border-color: #ff5800;
 }
 
 
